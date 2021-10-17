@@ -21,7 +21,7 @@ const AddTodo = props => {
             <TextInput
               style={styles.textInput}
               placeholder="To-do enter.."
-              placeholderTextColor="#000000"
+              placeholderTextColor="#808e95"
               onChangeText={item => setTodo(item)}
             />
             <Pressable
